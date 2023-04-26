@@ -204,6 +204,10 @@ header h1{
     color: black!important;
   }
 
+  header.home .left-links .arqui-nav-link.mobi-link:hover > a{
+    color: white!important;
+  }
+
   header .left-links .arqui-nav-link ul a{
     font-size: .7rem;
     padding: 0;
@@ -214,6 +218,7 @@ header h1{
   .left-links .arqui-nav-link.mobi-link ul{
     left: 6.1rem;
   }
+
 }
 @media screen and (min-width: 1200px){
     

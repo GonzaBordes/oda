@@ -20,7 +20,7 @@ import bandejaImg from '../assets/img/mobiliario/bandeja-tabo.webp'
 
 export default [
     {
-        nombre:'Silla Phini',
+        nombre:'Silla phini',
         slug: 'silla-phini',
         img: sillaPhiniImg,
         desc: ' La silla Phini es el resultado de su propia lógica constructiva. La constituyen tres piezas: asiento y respaldo en roble macizo y la incorporación de un parante que define la inclinación apropiada para la comodidad del usuario. Una propuesta sintetica, de fácil lectura la vuelve honesta y concreta. Esa es la belleza de esta silla.'
@@ -62,25 +62,25 @@ export default [
         desc: "Objeto de producción artesanal, confeccionado mediante el soplado delicado e individualizado del vidrio. Cada unidad constituye una pieza única e irrepetible."
     },
     {
-        nombre:'Sillón Nino',
+        nombre:'Sillón nino',
         slug: 'sillon-nino',
         img: sillonNinoImg,
         desc: "Sofa diseñado para un ambiente distendido, atemporal, generador de encuentros. Posee cómodos asientos y confortables almohadones que facilitan la pausa. La estructura es de madera, el relleno de espuma de poliuretano y guata de poliester. Los almohadones están confeccionados con pluma y espuma de poliuretano revestida con tela de algodón. El tapizado es realizado con genero a elección, como también su funda, elemento opcional que lo reviste."
     },
     {
-        nombre:'Mesa Loop',
+        nombre:'Mesa loop',
         slug: 'mesa-loop',
         img: mesaLoopImg,
         desc: "La mesa Loop representa el punto de encuentro entre la sutileza refinada de las formas redondas, la funcionalidad del objeto y la solidez  de la pieza. La conjunción de estos elementos permite que la mesa principal constituya el lugar intimo de reunión para compartir espacio con la familia o amigos."
     },
     {
-        nombre:'Perchero Tor',
+        nombre:'Perchero tor',
         slug: 'perchero-tor',
         img: percheroImg,
         desc: "El perchero Tor y su par el espejo Tor, elaborados en  roble macizo, poseen  una sólida apariencia que les permite ignorar las reglas rígidas de uso.  Constituyen una pieza ideal para espacios altos."
     },
     {
-        nombre:'Repisa Nes',
+        nombre:'Repisa nes',
         slug: 'repisa-nes',
         img: repisaNesImg,
         desc: "La repisa Nes es una solución de almacenamiento diseñada para adaptarse a cualquier espacio."
@@ -98,7 +98,7 @@ export default [
         desc: "La mesa Satu elaborada con  dos piezas encastradas de madera de roble macizo, posee el encanto de la nitidez de los objetos. La transparencia del vidrio realza la integridad del diseno."
     },
     {
-        nombre:'Silla Oda',
+        nombre:'Silla oda',
         slug: 'silla-oda',
         img: sillaOdaImg,
         desc: "La silla Oda disenada con una silueta geometrica, es un asiento que resalta lo simple y puro, ello la vuelve apta para cualquier ambiente."
@@ -110,7 +110,7 @@ export default [
         desc: "Las varillas imantadas son sujetadores de madera. Constituyen un objeto utilitario que realza la exposicion de los papeles artesanales."
     },
     {
-        nombre:'Sillón Nuvola',
+        nombre:'Sillón nuvola',
         slug: 'sillon-nuvola',
         img: sillonNuvolaImg,
         desc: "El sillón Nuvola tiene elementos estéticos que lo definen. Su elegante cuerpo en madera de roble le aporta robustez y distinción. Los almohadones muestran la calidez del diseño y el confort necesario. El conjunto permite percibir la belleza de manera rigurosa, sin concesiones.Tadas son sujetadores de madera. Constituyen un objeto utilitario que realza la exposicion de los papeles artesanales."
@@ -122,7 +122,7 @@ export default [
         desc: "La bandeja Tabo, dotada de una estudiada simplicidad, fue pensada para acompañar tus historias cotidianas."
     },
     {
-        nombre:'Candelabro Etna',
+        nombre:'Candelabro etna',
         slug: 'candelabro-etna',
         img: candelabroEtnaImg,
         desc: "Objetos de producción artesanal, confeccionados con pasta de gres pigmentada con óxidos minerales naturales."

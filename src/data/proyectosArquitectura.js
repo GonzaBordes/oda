@@ -9,7 +9,6 @@ import adentroDest from '../assets/img/arquitectura/casa-adentro/destacada.webp'
 import blancaDest from '../assets/img/arquitectura/casa-blanca/destacada.webp'
 import leloirDest from '../assets/img/arquitectura/casas-leloir/destacada.webp'
 import spaDest from '../assets/img/arquitectura/spa-estancia/destacada.webp'
-import terronDest from '../assets/img/arquitectura/casa-terron/destacada.webp'
 
 // IMAGENES SECUNDARIAS
 
@@ -45,7 +44,6 @@ import casco16 from '../assets/img/arquitectura/casco-historico/16.webp'
 // casa compacta
 import compacta2 from '../assets/img/arquitectura/casa-compacta/2.webp'
 import compacta3 from '../assets/img/arquitectura/casa-compacta/3.webp'
-import compacta4 from '../assets/img/arquitectura/casa-compacta/4.webp'
 
 // casa linea
 import linea2 from '../assets/img/arquitectura/casa-linea/2.webp'
@@ -100,11 +98,7 @@ import leloir3 from '../assets/img/arquitectura/casas-leloir/3.webp'
 // spa estancia la paz
 import spa2 from '../assets/img/arquitectura/spa-estancia/2.webp'
 
-// casa terron
-import terron2 from '../assets/img/arquitectura/casa-terron/2.webp'
-import terron3 from '../assets/img/arquitectura/casa-terron/3.webp'
-import terron4 from '../assets/img/arquitectura/casa-terron/4.webp'
-import terron5 from '../assets/img/arquitectura/casa-terron/5.webp'
+
 
 
 
@@ -136,7 +130,7 @@ export default [
     },
     {
         "id" : 2,
-        "titulo": "Refuncionalización casco histórico",
+        "titulo": "Casco histórico",
         "slug": "refuncionalizacion-casco-historico",
         "ubicacion": "Estancia La Paz, Cordoba, Arg.",
         "año": 2014,
@@ -171,7 +165,6 @@ export default [
         secondaryImgList:[
             compacta2,
             compacta3,
-            compacta4
         ]
     },
     {
@@ -278,7 +271,7 @@ export default [
     },   
     {
         "id" : 11,
-        "titulo": "Spa Estancia La Paz",
+        "titulo": "Spa estancia la paz",
         "slug": "spa-estancia-la-paz",
         "ubicacion": "Estancia La Paz, Cordoba, Arg.",
         "año": 2014,
@@ -288,22 +281,6 @@ export default [
             spa2
         ]
 
-    },
-    {
-        "id" : 12,
-        "titulo": "Casa terrón",
-        "slug": "casa-terron",
-        "ubicacion": "Estancia el terron, Mendiolaza, Cba, Arg.",
-        "año": 2020,
-        img: terronDest,
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        secondaryImgList:[
-           terron2,
-           terron3,
-           terron4,
-           terron5
-        ]
-    },
-   
+    } 
     
 ]
