@@ -83,12 +83,8 @@ function Header(props) {
                                     </ul>
                             </li>
                             <li 
-                                 exit={{ opacity: 0, y: 15 }}
-                                 transition={{duration: .19, ease: "easeOut", delay: .4}}
-                                 initial={{ opacity: 0, y:15 }}
-                                 animate={{ opacity: 1, y:0 }}
+                                 
                                  className='arqui-nav-link mobi-link'
-                                 onMouseEnter={handleMouseOver} onMouseLeave={handleMouseLeave}
                             >
                                 <Link 
                                 className={props.currentPage === "mobiliario" ? "active" : ""} to={"/mobiliario"}>

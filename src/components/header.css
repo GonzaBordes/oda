@@ -74,7 +74,7 @@ nav{
     align-items: center;
     gap: 2rem;
     padding-inline: 1.5rem;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
     transition: .8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -90,9 +90,6 @@ nav.opened a{
     transform: translateY(0);
     transition: 600ms 250ms;;
 }
-
-
-
 
 nav ul li a{
     display: block;
@@ -123,7 +120,7 @@ nav img{
 }
 
 .mobile-nav-description span{
-    color: rgb(72, 72, 72);
+    color: rgb(128, 128, 128);
     margin-top: 1.3rem;
     display: block;
     font-size: .8rem;
