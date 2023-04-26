@@ -1,0 +1,13 @@
+#hero .container{
+    display: grid;
+    gap: 2.5rem;
+}
+
+#hero img{
+    order: 1;
+}
+
+#hero p{
+    order: 2;
+}
+

@@ -1,0 +1,60 @@
+.proyecto-details{
+    display: grid;
+}
+
+.proyecto-details span{
+    font-size: 1rem;
+    color: black;
+    display: block;
+}
+
+#mobiliario li{
+    position: relative;
+}
+
+@media screen and (min-width: 920px) {
+
+    .proyecto-details span{
+        font-size: 1.5rem;
+        color: black;
+    }
+
+    #mobiliario li:hover img{
+        opacity: .4;
+        transition: 500ms;
+    }
+
+    #mobiliario .proyecto-details{
+        position: absolute;
+        top: 50%;
+        z-index: 9999;
+        left: -10%;
+    }
+    
+    #mobiliario li:nth-child(even) .proyecto-details{
+        left: unset;
+        right: -10%;
+    }  
+
+    #mobiliario li  span{
+        transition: 500ms;
+        transform: translateY(100%);
+        font-size: 1.2rem;
+    }
+
+    #mobiliario li  div:nth-child(2) span{
+        transition: 500ms 100ms;
+    }
+
+    #mobiliario li  div:nth-child(3) span{
+        transition: 500ms 200ms;
+    }
+
+    #mobiliario li:hover  span{
+        transform: translateY(0);
+    }
+
+
+
+    
+}

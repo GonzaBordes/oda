@@ -1,0 +1,23 @@
+#hero .container{
+    display: grid;
+    gap: 2.5rem;
+}
+
+#hero address{
+    font-size: 1.2rem;
+    font-style: normal;
+    text-align: center;
+}
+
+#hero img{
+    order: 1;
+}
+
+#hero p{
+    order: 3;
+}
+
+.single-project .container ul{
+    order: 4;
+    padding-top: .5rem;
+}

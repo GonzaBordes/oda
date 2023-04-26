@@ -1,0 +1,59 @@
+.proyecto-details{
+    display: grid;
+}
+
+.proyecto-details span{
+    font-size: 1rem;
+    color: black;
+    display: block;
+}
+
+#arquitectura li{
+    position: relative;
+}
+
+@media screen and (min-width: 920px) {
+
+    #arquitectura .proyecto-details span{
+        font-size: 1rem;
+        color: black;
+    }
+
+    #arquitectura li:hover img{
+        opacity: .4;
+        transition: 500ms;
+    }
+
+    #arquitectura .proyecto-details{
+        position: absolute;
+        top: 30%;
+        z-index: 9999;
+        left: -10%;
+    }
+    
+    #arquitectura li:nth-child(even) .proyecto-details{
+        left: unset;
+        right: -10%;
+    }  
+
+    #arquitectura li  span{
+        transition: 500ms;
+        transform: translateY(100%);
+    }
+
+    #arquitectura li  div:nth-child(2) span{
+        transition: 500ms 100ms;
+    }
+
+    #arquitectura li  div:nth-child(3) span{
+        transition: 500ms 200ms;
+    }
+
+    #arquitectura li:hover  span{
+        transform: translateY(0);
+    }
+
+
+
+    
+}

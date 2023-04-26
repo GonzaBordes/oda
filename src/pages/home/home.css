@@ -1,0 +1,112 @@
+/* HEADER */
+
+header.home{
+    position: fixed;
+    width: 100%;
+}
+  
+header .container>a{
+    z-index: 9999999999999999999;
+} 
+  
+  header.home .middle-img img{
+    filter: invert(1)!important;
+  }
+
+  header.home .burger::after,
+  header.home .burger::before{
+    background-color: white;
+  }
+
+  header.home a{
+    color: white!important;
+  }
+
+  header.home h1{
+    filter: invert(1);
+  }
+
+  header.home .middle-img{
+    margin-left: 0;
+  }
+
+  body.dark .middle-img img{
+    filter: none!important;
+  }
+
+  #home .container{
+    padding: 0;
+  }
+
+/* HERO */
+h2{
+    font-size: 0;
+}
+
+.video-wrapper,
+video{
+    width: 100%;
+}
+
+video{
+    object-fit: cover;
+    height: 100svh;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* images grid */
+
+.mesa-acca{
+    text-align: center;
+}
+
+.mesa-acca img{
+    width: 60%;
+}
+
+main ul{
+    display: grid;
+    gap: 5rem;
+    padding-block: 3rem;
+    margin: auto;
+}
+
+@media screen and (min-width: 560px){
+    
+}
+/* @media screen and (min-width: 760px){
+    header.home{
+        position: relative;
+        width: 100%;
+      }
+
+      video{
+        height: 80vh;
+        padding-top: 2vh;
+        position: relative;
+      }
+
+      header.home h1{
+        filter: none;
+      }
+
+      header.home .burger::after,
+    header.home .burger::before{
+    background-color: rgb(0, 0, 0);
+  }
+
+      
+
+} */
+@media screen and (min-width: 920px){
+    
+}
+@media screen and (min-width: 1200px){
+    
+}
+@media screen and (min-width: 1450px){
+    
+}
