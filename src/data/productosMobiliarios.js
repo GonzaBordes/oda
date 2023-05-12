@@ -109,12 +109,12 @@ export default [
         img: varillasImantadasImg,
         desc: "Las varillas imantadas son sujetadores de madera. Constituyen un objeto utilitario que realza la exposicion de los papeles artesanales."
     },
-    {
-        nombre:'Sillón nuvola',
-        slug: 'sillon-nuvola',
-        img: sillonNuvolaImg,
-        desc: "El sillón Nuvola tiene elementos estéticos que lo definen. Su elegante cuerpo en madera de roble le aporta robustez y distinción. Los almohadones muestran la calidez del diseño y el confort necesario. El conjunto permite percibir la belleza de manera rigurosa, sin concesiones.Tadas son sujetadores de madera. Constituyen un objeto utilitario que realza la exposicion de los papeles artesanales."
-    },
+    // {
+    //     nombre:'Sillón nuvola',
+    //     slug: 'sillon-nuvola',
+    //     img: sillonNuvolaImg,
+    //     desc: "El sillón Nuvola tiene elementos estéticos que lo definen. Su elegante cuerpo en madera de roble le aporta robustez y distinción. Los almohadones muestran la calidez del diseño y el confort necesario. El conjunto permite percibir la belleza de manera rigurosa, sin concesiones.Tadas son sujetadores de madera. Constituyen un objeto utilitario que realza la exposicion de los papeles artesanales."
+    // },
     {
         nombre:'Bandeja tabo',
         slug: 'bandeja-tabo',

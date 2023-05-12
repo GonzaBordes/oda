@@ -27,6 +27,7 @@
     #mobiliario .proyecto-details{
         position: absolute;
         top: 50%;
+        transform: translateY(-50%);
         z-index: 9999;
         left: -10%;
     }

@@ -5,11 +5,9 @@ import ScrollTrigger from "gsap/ScrollTrigger"
 import video from '../../assets/videos/intro.mp4'
 
 
-
 function Home() {
 
     gsap.registerPlugin(ScrollTrigger)
-
 
     return (
             <>  

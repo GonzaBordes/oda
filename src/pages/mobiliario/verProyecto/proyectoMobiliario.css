@@ -28,12 +28,12 @@
         position: absolute;
         top: 50%;
         z-index: 9999;
-        left: -10%;
+        left: -50px;
     }
     
     #mobiliario li:nth-child(even) .proyecto-details{
         left: unset;
-        right: -10%;
+        right: -50px;
     }  
 
     #mobiliario li  span{
